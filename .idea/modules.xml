@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shadowsocks.iml" filepath="$PROJECT_DIR$/shadowsocks.iml" />
+      <module fileurl="file://F:\ASproject\shadowsocks-android-java\app\app.iml" filepath="F:\ASproject\shadowsocks-android-java\app\app.iml" />
+      <module fileurl="file://F:\ASproject\shadowsocks-android-java\shadowsocks.iml" filepath="F:\ASproject\shadowsocks-android-java\shadowsocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shadowsocks-android-java.iml" filepath="$PROJECT_DIR$/.idea/shadowsocks-android-java.iml" />
     </modules>
   </component>
 </project>

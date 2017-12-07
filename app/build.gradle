@@ -6,13 +6,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:3.0.0'
     }
 }
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "23.0.1"
+//    buildToolsVersion "23.0.1"
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
@@ -35,6 +35,10 @@ repositories {
 
     maven {
         url "https://raw.github.com/embarkmobile/zxing-android-minimal/mvn-repo/maven-repository/"
+    }
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
     }
 }
 
